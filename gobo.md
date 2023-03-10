@@ -13,17 +13,17 @@
 
 Create a directory to mount the drive to:  
 ```
-mkdir /Media/*directory name*`
+mkdir /Media/directory name`
 ```
 
 Mount the drive with the following commands:  
 ```
-mount /dev/*device name* /Media/*directory name*
+mount /dev/device name /Media/directory name
 ```
 
 Run boot-part.sh to partition the hard drive:  
 ```
-cd /Media/*directory name*
+cd /Media/directory name
 bash boot-part.sh
 ```
   
@@ -47,7 +47,7 @@ Run installer, setting locale settings accordingly and using the following param
 
 Enter this command to create a configuration file for wpa_supplicant:  
 ```
-Wpa_passphrase *SSID* *password* > /etc/wpa_supplicant.conf`
+Wpa_passphrase SSID password > /etc/wpa_supplicant.conf`
 ```
 
 Open the config and remove the commented line containing the unencrypted passcode:  
@@ -57,7 +57,7 @@ nano /etc/wpa_supplicant.conf
   
 Copy the wpa_supplicant script to the system:  
 ```
-cp /Media/*directory name*/*path to script* /
+cp /Media/directory name/path to script /
 ```
 
 Rename the script:  
