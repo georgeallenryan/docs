@@ -27,7 +27,7 @@ cd /Media/directory name
 bash boot-part.sh
 ```
   
-Run installer, setting locale settings accordingly and using the following parameters:
+Run the installer by typing `Installer` into the terminal. Set locale settings accordingly and set the following parameters:
   
 * Hostname: ETD-Thinkpad
 * User: student
