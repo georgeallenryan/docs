@@ -30,6 +30,7 @@ bash boot-part.sh
 Run the installer by typing `Installer` into the terminal. Set locale settings accordingly and set the following parameters:
   
 * Hostname: ETD-Thinkpad
+* SU password: toor
 * User: student
 * User name: Student
 * Password: *password*
