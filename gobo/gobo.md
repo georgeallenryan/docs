@@ -42,7 +42,7 @@ Run the installer by typing `Installer` into the terminal. Set locale settings a
 
 ### Setting up internet connection
 
-* Once the OS has installed, use the command `startx` to go into the GUI.
+* Once the OS has installed, sign in as **root** user and use the command `startx` to go into the GUI.
   
 * Create a directory and mount the USB drive containing the scripts using the same commands as before.
 
